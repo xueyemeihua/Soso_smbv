@@ -15,7 +15,6 @@
   <div align="center">
     <a href="somejsp/login.jsp">登录</a><br>
     <a href="/Soso_smbv/userView">功能页</a>
-<%--    Soso_smbv--%>
   </div>
   </body>
 </html>
