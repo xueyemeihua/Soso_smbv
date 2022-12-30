@@ -22,16 +22,16 @@ public class LoginServlet extends HttpServlet {
             request.setAttribute("loginError","");
             if (lusername.equals("admin")) {
                 //跳转到管理员页面
-                request.getRequestDispatcher("/somejsp/adminView.jsp").forward(request,response);
+                request.getRequestDispatcher("/adminView.jsp").forward(request,response);
             } else {
                 //跳转到用户页面
-                request.getRequestDispatcher("/somejsp/userView.jsp").forward(request,response);
+                request.getRequestDispatcher("/userView.jsp").forward(request,response);
             }
         } else {
             //返回登录页面并提示用户名或密码错误
             request.setAttribute("loginUsername",lusername);
             request.setAttribute("loginError","用户名或密码错误");
-            request.getRequestDispatcher("/somejsp/login.jsp").forward(request,response);
+            request.getRequestDispatcher("/login.jsp").forward(request,response);
         }
     }
 

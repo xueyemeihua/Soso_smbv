@@ -13,4 +13,13 @@ public interface BusinessMapper {
 //    根据用户名查询该用户办理的业务
     List<Business> getMyBusinessByUid(@Param("uid") Integer uid);
 
+//    根据业务状态查询业务
+    List<Business> getBusinessByBcod(@Param("bcod") int bcod);
+
+//    根据业务id查询该业务状态是否为某个值
+    int checkBusBcodByBid(@Param("bid") Integer bbid, @Param("bcod") int bcod);
+
+//    根据bid获取业务对象
+    Business getBusByBid(@Param("bid") Integer bbid);
+
 }

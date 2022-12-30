@@ -46,6 +46,9 @@
             </tr>
         </table>
         <a href="/Soso_smbv/showMyBusiness">我的套餐</a><br>
+        <a href="/Soso_smbv/buyBusiness">办理业务</a><br>
+
+<%--        ../表示返回上一级目录--%>
         <a href="index.jsp">返回主页</a>
     </div>
 </body>

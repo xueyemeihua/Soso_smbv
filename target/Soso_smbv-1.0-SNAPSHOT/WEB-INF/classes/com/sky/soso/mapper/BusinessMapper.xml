@@ -15,4 +15,19 @@
         uabtab,business WHERE uabtab.bid=business.bid AND uabtab.uid=#{uid};
     </select>
 
+<!--    List<Business> getBusinessByBcod(@Param("bcod") int bcod);-->
+    <select id="getBusinessByBcod" resultType="business">
+        select * from business where bcod=#{bcod}
+    </select>
+
+<!--    int checkBusBcodByBid(Integer bbid, int bcod);-->
+    <select id="checkBusBcodByBid" resultType="int">
+        select count(bid) from business where bid=#{bid} and bcod=#{bcod}
+    </select>
+
+<!--    Business getBusByBid(@Param("bid") Integer bbid);-->
+    <select id="getBusByBid" resultType="business">
+        select * from business where bid=#{bid}
+    </select>
+
 </mapper>

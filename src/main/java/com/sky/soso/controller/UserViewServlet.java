@@ -26,13 +26,13 @@ public class UserViewServlet extends HttpServlet {
             //将新的用户信息覆盖旧的用户信息
             request.setAttribute("loginUser",user);
             if (loginUsername.equals("admin")) {
-                request.getRequestDispatcher("/somejsp/adminView.jsp").forward(request,response);
+                request.getRequestDispatcher("/adminView.jsp").forward(request,response);
             } else {
-                request.getRequestDispatcher("/somejsp/userView.jsp").forward(request,response);
+                request.getRequestDispatcher("/userView.jsp").forward(request,response);
             }
         } else {
             //登录信息失效,重新登录
-            request.getRequestDispatcher("/somejsp/login.jsp").forward(request,response);
+            request.getRequestDispatcher("/login.jsp").forward(request,response);
         }
     }
 

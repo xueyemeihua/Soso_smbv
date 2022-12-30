@@ -19,4 +19,14 @@
         insert into `user` (username,pwd) values (#{username},#{pwd})
     </insert>
 
+<!--    int updateUserMoney(@Param("uid") Integer uid, @Param("money") Integer rmoney);-->
+    <update id="updateUserMoney">
+        update `user` set money=#{money} where uid=#{uid}
+    </update>
+
+<!--    User getUserByUid(@Param("uid") Integer uid);-->
+    <select id="getUserByUid" resultType="user">
+        select * from `user` where uid=#{uid}
+    </select>
+
 </mapper>

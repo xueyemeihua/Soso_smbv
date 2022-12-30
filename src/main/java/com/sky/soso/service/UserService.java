@@ -39,4 +39,9 @@ public class UserService {
         User user = mapper.getUserByUsername(loginUsername);
         return user;
     }
+
+    public User getUserByUid(Integer uid) {
+        User user = mapper.getUserByUid(uid);
+        return user;
+    }
 }

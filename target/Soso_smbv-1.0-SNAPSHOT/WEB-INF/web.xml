@@ -27,6 +27,22 @@
         <servlet-name>ShowMyBusinessServlet</servlet-name>
         <servlet-class>com.sky.soso.controller.ShowMyBusinessServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>BuyBusinessServlet</servlet-name>
+        <servlet-class>com.sky.soso.controller.BuyBusinessServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DoBuyBusServlet</servlet-name>
+        <servlet-class>com.sky.soso.controller.DoBuyBusServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DoBuyBusServlet</servlet-name>
+        <url-pattern>/doBuyBus</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BuyBusinessServlet</servlet-name>
+        <url-pattern>/buyBusiness</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>ShowMyBusinessServlet</servlet-name>
         <url-pattern>/showMyBusiness</url-pattern>

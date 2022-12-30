@@ -17,15 +17,15 @@ public class RegisterServlet extends HttpServlet {
         if (i == 1) {
             //注册成功,跳转到登录页面
             request.setAttribute("lusername",rusername);
-            request.getRequestDispatcher("/somejsp/login.jsp").forward(request,response);
+            request.getRequestDispatcher("/login.jsp").forward(request,response);
         } else if (i== -1){
             //返回注册页面,并提示用户名已存在
             request.setAttribute("registerError","用户名已存在");
-            request.getRequestDispatcher("/somejsp/register.jsp").forward(request,response);
+            request.getRequestDispatcher("/register.jsp").forward(request,response);
         } else {
             //存入数据库失败
             request.setAttribute("registerError","连接数据库失败,请检查网络");
-            request.getRequestDispatcher("/somejsp/register.jsp").forward(request,response);
+            request.getRequestDispatcher("/register.jsp").forward(request,response);
         }
 
     }

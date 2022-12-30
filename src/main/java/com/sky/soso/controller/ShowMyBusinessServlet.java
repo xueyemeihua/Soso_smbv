@@ -23,23 +23,23 @@ public class ShowMyBusinessServlet extends HttpServlet {
                     //存在业务
                     request.setAttribute("showMyBusError","");
                     request.setAttribute("myBuss",buss);
-                    request.getRequestDispatcher("/somejsp/showMyBusiness.jsp").forward(request,response);
+                    request.getRequestDispatcher("/showMyBusiness.jsp").forward(request,response);
                 } else {
                     //不存在业务
                     request.setAttribute("myBuss",buss);
                     request.setAttribute("showMyBusError","没有数据");
-                    request.getRequestDispatcher("/somejsp/showMyBusiness.jsp").forward(request,response);
+                    request.getRequestDispatcher("/showMyBusiness.jsp").forward(request,response);
 
                 }
             } else {
                 //连接数据库失败,给出错误信息
                 request.setAttribute("showMyBusError","连接数据库失败");
                 request.setAttribute("myBuss",buss);
-                request.getRequestDispatcher("/somejsp/showMyBusiness.jsp").forward(request,response);
+                request.getRequestDispatcher("/showMyBusiness.jsp").forward(request,response);
             }
         } else {
             //登录信息失效,返回登录界面
-            request.getRequestDispatcher("/somejsp/login.jsp").forward(request,response);
+            request.getRequestDispatcher("/login.jsp").forward(request,response);
         }
 
 

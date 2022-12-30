@@ -21,7 +21,7 @@ public class VolidLoginFilter implements Filter {
             chain.doFilter(request, resp);
         } else {
             //拦截请求并返回登录页面
-            request.getRequestDispatcher("/somejsp/login.jsp").forward(request,resp);
+            request.getRequestDispatcher("/login.jsp").forward(request,resp);
         }
     }
 

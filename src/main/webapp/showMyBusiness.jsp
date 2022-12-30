@@ -35,6 +35,7 @@
         </c:forEach>
     </table>
     <p style="color: red">${showMyBusError}</p>
+    <a href="userView.jsp">返回</a>
 </div>
 </body>
 </html>
