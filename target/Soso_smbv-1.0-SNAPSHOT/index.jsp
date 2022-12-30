@@ -11,9 +11,9 @@
     <title>Soso主页</title>
   </head>
   <body>
-  <a href="somejsp/register.jsp">注册</a>
+  <a href="register.jsp">注册</a>
   <div align="center">
-    <a href="somejsp/login.jsp">登录</a><br>
+    <a href="login.jsp">登录</a><br>
     <a href="/Soso_smbv/userView">功能页</a>
   </div>
   </body>
