@@ -4,5 +4,15 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.sky.soso.mapper.BusinessMapper">
 
+<!--    List<Business> getAllBusiness();-->
+    <select id="getAllBusiness" resultType="business">
+        select * from business
+    </select>
+
+<!--    List<Business> getMyBusinessByUid(@Param("uid") Integer uid);-->
+    <select id="getMyBusinessByUid" resultType="business">
+        SELECT business.btitle,business.binfo,business.bprice FROM
+        uabtab,business WHERE uabtab.bid=business.bid AND uabtab.uid=#{uid};
+    </select>
 
 </mapper>
