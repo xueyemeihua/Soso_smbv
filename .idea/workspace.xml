@@ -6,57 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17b196dd-e632-4eea-a5da-6f069bd3a7fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/soso/controller/BuyBusinessServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/soso/controller/DoBuyBusServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/soso/mapper/UabtabMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/sky/soso/mapper/UabtabMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/buyBusiness.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sky/soso/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sky/soso/controller/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sky/soso/controller/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sky/soso/controller/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sky/soso/controller/ShowMyBusinessServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sky/soso/controller/ShowMyBusinessServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sky/soso/controller/UserViewServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sky/soso/controller/UserViewServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sky/soso/controller/VolidLoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sky/soso/controller/VolidLoginFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sky/soso/mapper/BusinessMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sky/soso/mapper/BusinessMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sky/soso/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sky/soso/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sky/soso/service/BusinessService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sky/soso/service/BusinessService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sky/soso/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sky/soso/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/sky/soso/mapper/BusinessMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/sky/soso/mapper/BusinessMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/sky/soso/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/sky/soso/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/somejsp/adminView.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/adminView.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/somejsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/somejsp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/somejsp/showMyBusiness.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/showMyBusiness.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/somejsp/userView.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/userView.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Soso_smbv-1.0-SNAPSHOT/WEB-INF/classes/com/sky/soso/mapper/BusinessMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Soso_smbv-1.0-SNAPSHOT/WEB-INF/classes/com/sky/soso/mapper/BusinessMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Soso_smbv-1.0-SNAPSHOT/WEB-INF/classes/com/sky/soso/mapper/BusinessMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Soso_smbv-1.0-SNAPSHOT/WEB-INF/classes/com/sky/soso/mapper/BusinessMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Soso_smbv-1.0-SNAPSHOT/WEB-INF/classes/com/sky/soso/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Soso_smbv-1.0-SNAPSHOT/WEB-INF/classes/com/sky/soso/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Soso_smbv-1.0-SNAPSHOT/WEB-INF/classes/com/sky/soso/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Soso_smbv-1.0-SNAPSHOT/WEB-INF/classes/com/sky/soso/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Soso_smbv-1.0-SNAPSHOT/WEB-INF/classes/com/sky/soso/service/BusinessService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Soso_smbv-1.0-SNAPSHOT/WEB-INF/classes/com/sky/soso/service/BusinessService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Soso_smbv-1.0-SNAPSHOT/WEB-INF/classes/com/sky/soso/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Soso_smbv-1.0-SNAPSHOT/WEB-INF/classes/com/sky/soso/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Soso_smbv-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Soso_smbv-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Soso_smbv-1.0-SNAPSHOT/somejsp/showMyBusiness.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Soso_smbv-1.0-SNAPSHOT/somejsp/userView.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/controller/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/controller/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/controller/RegisterServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/controller/ShowMyBusinessServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/controller/ShowMyBusinessServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/controller/UserViewServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/controller/UserViewServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/controller/VolidLoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/controller/VolidLoginFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/mapper/BusinessMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/mapper/BusinessMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/mapper/BusinessMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/mapper/BusinessMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/pojo/Business.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/pojo/Business.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/service/BusinessService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/service/BusinessService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/utils/MD5Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/utils/MD5Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/utils/SqlSessionUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/utils/SqlSessionUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sky/soso/UserMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/sky/soso/UserMapperTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="17b196dd-e632-4eea-a5da-6f069bd3a7fc" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/userView.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1683">
-              <caret line="51" column="36" lean-forward="true" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+              <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -101,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/soso/controller/VolidLoginFilter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="495">
-              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -118,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/soso/controller/DoBuyBusServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="693">
+              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -563,7 +513,7 @@
       <updated>1672369020502</updated>
       <workItem from="1672369023952" duration="2537000" />
       <workItem from="1672371613517" duration="5871000" />
-      <workItem from="1672405606721" duration="12408000" />
+      <workItem from="1672405606721" duration="12679000" />
     </task>
     <task id="LOCAL-00001" summary="soso大厅smb版本第一次提交">
       <created>1672371768918</created>
@@ -572,7 +522,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672371768918</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="soso大厅smb版本&#10;1.实现购买业务&#10;2.修复了页面跳转bug">
+      <created>1672418235567</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672418235568</updated>
+    </task>
+    <task id="LOCAL-00003" summary="soso大厅smb版本&#10;1.实现购买业务&#10;2.修复了页面跳转bug">
+      <created>1672418366415</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672418366415</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -596,10 +560,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20816000" />
+    <option name="totallyTimeSpent" value="21087000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988864" visible="true" weight="0.18763326" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -640,7 +605,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="soso大厅smb版本第一次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="soso大厅smb版本第一次提交" />
+    <MESSAGE value="soso大厅smb版本&#10;1.实现购买业务&#10;2.修复了页面跳转bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="soso大厅smb版本&#10;1.实现购买业务&#10;2.修复了页面跳转bug" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/soso/utils/SqlSessionUtil.java">
@@ -802,7 +768,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/userView.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1683">
-          <caret line="51" column="36" lean-forward="true" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+          <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -844,7 +810,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/soso/controller/VolidLoginFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
-          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -857,8 +823,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/soso/controller/DoBuyBusServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="693">
+          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
         </state>
       </provider>
     </entry>
