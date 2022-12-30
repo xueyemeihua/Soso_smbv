@@ -7,6 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17b196dd-e632-4eea-a5da-6f069bd3a7fc" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/sky/soso/BusinessMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -19,6 +20,23 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/controller/ShowMyBusinessServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/controller/ShowMyBusinessServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/mapper/BusinessMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/mapper/BusinessMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/mapper/BusinessMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/mapper/BusinessMapper.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/controller/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/controller/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/controller/RegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/controller/ShowMyBusinessServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/controller/ShowMyBusinessServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/controller/UserViewServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/controller/UserViewServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/controller/VolidLoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/controller/VolidLoginFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/mapper/BusinessMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/mapper/BusinessMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/pojo/Business.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/pojo/Business.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/service/BusinessService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/service/BusinessService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/utils/MD5Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/utils/MD5Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sky/soso/utils/SqlSessionUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sky/soso/utils/SqlSessionUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sky/soso/UserMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/sky/soso/UserMapperTest.class" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,6 +50,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< Updated upstream
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/somejsp/userView.jsp">
@@ -104,6 +123,14 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/soso/controller/ShowMyBusinessServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -286,6 +313,7 @@
               <item name="Soso_smbv" type="b2602c69:ProjectViewProjectNode" />
               <item name="Soso_smbv" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< Updated upstream
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
@@ -294,6 +322,8 @@
               <item name="Soso_smbv" type="b2602c69:ProjectViewProjectNode" />
               <item name="Soso_smbv" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> Stashed changes
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -358,38 +388,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.42">
-    <configuration name="BusinessMapperTest.testGetAllBusiness" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Soso_smbv" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sky.soso.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sky.soso" />
-      <option name="MAIN_CLASS_NAME" value="com.sky.soso.BusinessMapperTest" />
-      <option name="METHOD_NAME" value="testGetAllBusiness" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BusinessMapperTest.testGetMyBusinessByUid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Soso_smbv" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sky.soso.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sky.soso" />
-      <option name="MAIN_CLASS_NAME" value="com.sky.soso.BusinessMapperTest" />
-      <option name="METHOD_NAME" value="testGetMyBusinessByUid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserMapperTest.testGetUserByUsernameAndPwd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Soso_smbv" />
       <extension name="coverage">
@@ -486,13 +484,14 @@
     <list>
       <item itemvalue="JUnit.UserMapperTest.testGetUserByUsernameAndPwd" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.42" />
+<<<<<<< Updated upstream
       <item itemvalue="JUnit.BusinessMapperTest.testGetAllBusiness" />
       <item itemvalue="JUnit.BusinessMapperTest.testGetMyBusinessByUid" />
+=======
+>>>>>>> Stashed changes
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BusinessMapperTest.testGetMyBusinessByUid" />
-        <item itemvalue="JUnit.BusinessMapperTest.testGetAllBusiness" />
         <item itemvalue="JUnit.UserMapperTest.testGetUserByUsernameAndPwd" />
         <item itemvalue="JUnit.UserMapperTest.testGetUserByUsernameAndPwd" />
       </list>
@@ -518,7 +517,25 @@
       <option name="project" value="LOCAL" />
       <updated>1672371768918</updated>
     </task>
+<<<<<<< Updated upstream
     <option name="localTasksCounter" value="2" />
+=======
+    <task id="LOCAL-00002" summary="soso大厅smb版本第二次提交&#10;实现功能:&#10;1.注册&#10;2.登录&#10;3.展示个人办理过的业务">
+      <created>1672383052700</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672383052700</updated>
+    </task>
+    <task id="LOCAL-00003" summary="soso大厅smb版本第二次提交&#10;实现功能:&#10;1.注册&#10;2.登录&#10;3.展示个人办理过的业务">
+      <created>1672385071237</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672385071237</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+>>>>>>> Stashed changes
     <servers />
   </component>
   <component name="TestHistory">
@@ -542,7 +559,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="8408000" />
+=======
+    <option name="totallyTimeSpent" value="9742000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -701,6 +722,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/soso/UserMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -721,6 +743,9 @@
         </state>
       </provider>
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/soso/BusinessMapperTest.java" />
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/sky/soso/mapper/BusinessMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
@@ -748,13 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/soso/controller/ShowMyBusinessServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="29" column="56" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/somejsp/showMyBusiness.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -762,6 +780,30 @@
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sky/soso/UserMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/soso/controller/ShowMyBusinessServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
