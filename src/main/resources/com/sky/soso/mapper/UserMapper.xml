@@ -29,4 +29,9 @@
         select * from `user` where uid=#{uid}
     </select>
 
+<!--    int updateUserPoints(@Param("uid") Integer uid, @Param("points") Integer rpoints);-->
+    <update id="updateUserPoints">
+        update `user` set points=#{points} where uid=#{uid}
+    </update>
+
 </mapper>

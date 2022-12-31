@@ -34,17 +34,19 @@ public class DoBuyBusServlet extends HttpServlet {
                 if (rmoney >= 0) {
                     //余额充足
                     //扣除费用
-                    int updateMoneyNum = service.buyBusUpdateMoney(uid,rmoney);
+                    int updateMoneyNum = service.buyBusUpdateMoney(uid, rmoney);
                     if (updateMoneyNum < 1) {
                         //扣除金额失败,直接报错即可
                         request.setAttribute("doBuyBusError", "连接数据库失败,请检查网络或重试");
                         request.getRequestDispatcher("/buyBusiness.jsp").forward(request, response);
                     } else {
-                        //添加业务进个人账户
+                        //添加业务进个人账户,修改积分
+                        int rpoints = service.countPoints(loginUser.getPoints(), bbid);
+                        service.buyBusUpdatePoints(uid, rpoints);
                         int insertMyBusNum = service.buyBusInsertMyBus(uid, bbid);
                         if (insertMyBusNum < 1) {
                             //添加失败,考虑回退金额并跳转到购买页面并提示(没想好怎么实现)
-                            int result = service.buyBusReUpdateMoney(uid,rmoney,bbid);
+                            int result = service.buyBusReUpdateMoney(uid, rmoney, bbid);
                             request.setAttribute("doBuyBusError", "连接数据库失败,请检查网络或重试");
                             request.getRequestDispatcher("/buyBusiness.jsp").forward(request, response);
                         } else {
@@ -52,7 +54,7 @@ public class DoBuyBusServlet extends HttpServlet {
                             //获取最新用户信息,并覆盖loginUser
                             UserService userService = new UserService();
                             User user = userService.getUserByUid(uid);
-                            request.getSession().setAttribute("loginUser",user);
+                            request.getSession().setAttribute("loginUser", user);
                             request.setAttribute("doBuyBusError", "");
                             request.getRequestDispatcher("/userView.jsp").forward(request, response);
                         }

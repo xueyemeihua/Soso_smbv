@@ -19,4 +19,7 @@ public interface UserMapper {
 
 //    根据用户编号查询用户信息
     User getUserByUid(@Param("uid") Integer uid);
+
+//    根据uid修改积分
+    int updateUserPoints(@Param("uid") Integer uid, @Param("points") Integer rpoints);
 }
