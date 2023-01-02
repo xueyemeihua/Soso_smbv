@@ -17,5 +17,14 @@ public class UserMapperTest {
         System.out.println(user);
     }
 
-
+    @Test
+    public void testUpdateUserInfo() {
+        SqlSession sqlSession = SqlSessionUtil.getSqlSession();
+        UserMapper mapper = sqlSession.getMapper(UserMapper.class);
+        User user = mapper.getUserByUid(1007);
+        System.out.println(user);
+        int i = mapper.updateUserInfo("行秋", "111", "1111", 1007);
+        User user1 = mapper.getUserByUid(1007);
+        System.out.println(user1);
+    }
 }

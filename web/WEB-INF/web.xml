@@ -35,6 +35,14 @@
         <servlet-name>DoBuyBusServlet</servlet-name>
         <servlet-class>com.sky.soso.controller.DoBuyBusServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>UpdateUserInfoServlet</servlet-name>
+        <servlet-class>com.sky.soso.controller.UpdateUserInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateUserInfoServlet</servlet-name>
+        <url-pattern>/updateUserInfo</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>DoBuyBusServlet</servlet-name>
         <url-pattern>/doBuyBus</url-pattern>

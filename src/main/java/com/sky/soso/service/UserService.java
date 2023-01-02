@@ -4,6 +4,7 @@ import com.sky.soso.mapper.UserMapper;
 import com.sky.soso.pojo.User;
 import com.sky.soso.utils.MD5Util;
 import com.sky.soso.utils.SqlSessionUtil;
+import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.session.SqlSession;
 
 public class UserService {
@@ -43,5 +44,10 @@ public class UserService {
     public User getUserByUid(Integer uid) {
         User user = mapper.getUserByUid(uid);
         return user;
+    }
+
+    public int updateUserInfo(String name, String phone, String cardid, Integer uid) {
+        int result = mapper.updateUserInfo(name, phone, cardid, uid);
+        return result;
     }
 }

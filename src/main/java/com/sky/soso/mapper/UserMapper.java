@@ -22,4 +22,7 @@ public interface UserMapper {
 
 //    根据uid修改积分
     int updateUserPoints(@Param("uid") Integer uid, @Param("points") Integer rpoints);
+
+//    修改用户信息
+    int updateUserInfo(@Param("name") String name, @Param("phone") String phone, @Param("cardid") String cardid, @Param("uid") Integer uid);
 }

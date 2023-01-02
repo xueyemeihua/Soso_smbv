@@ -34,4 +34,9 @@
         update `user` set points=#{points} where uid=#{uid}
     </update>
 
+<!--    int updateUserInfo(@Param("name") String name, @Param("phone") String phone, @Param("cardid") String cardid, @Param("uid") Integer uid);-->
+    <update id="updateUserInfo">
+        update `user` set `name`=#{name},`phone`=#{phone},`cardid`=#{cardid} where uid=#{uid}
+    </update>
+
 </mapper>
